@@ -39,6 +39,8 @@ h6 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
+
+
 p {
     margin: 0;
     /* color: #7c7c7c; */
@@ -73,8 +75,7 @@ body img {
     -o-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
-}
-
+  }
 
 .clr {
     color: #fff;
@@ -114,6 +115,14 @@ nav {
 
 }
 
+.team-main:hover{
+
+}
+.team-img{
+  padding: 2%;
+background: linear-gradient(180deg, rgba(22,2,106,1) 1%, rgba(3,10,91,1) 100%, rgba(100,120,144,1) 100%);
+
+}
 
 #logo a {
     float: left;
@@ -781,14 +790,7 @@ a.btn.btn-course:hover {
     color: #fff;
 }
 .last-content1 {
-    background: url(../images/myimg/img4.png) center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size:100% 100%;
-    position: relative;
-    height:250px;
+    height:  200px;
 }
 
 
@@ -1449,6 +1451,10 @@ a.move-top span {
 }
 
 @media(max-width:480px) {
+  .last-content1 {
+      height:  90px;
+      width: auto;
+  }
   header {
       padding: 1em 3em 2em 3em;
   }
