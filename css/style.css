@@ -128,6 +128,19 @@ nav {
 
 }
 
+.program_structure_accordion_color{
+
+  background: linear-gradient(180deg, rgba(22,2,106,1) 1%, rgba(3,10,91,1) 100%, rgba(100,120,144,1) 100%);
+}
+.program_structure_accordion_color .btn{
+  background: linear-gradient(180deg, rgba(22,2,106,1) 1%, rgba(3,10,91,1) 100%, rgba(100,120,144,1) 100%);
+  color: white;
+}
+.btn_nextpage{
+  background: linear-gradient(180deg, rgba(22,2,106,1) 1%, rgba(3,10,91,1) 100%, rgba(100,120,144,1) 100%);
+  color: white;
+}
+
 
 .team-img{
   padding: 2%;
