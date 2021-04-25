@@ -2541,11 +2541,9 @@ background: #707070;
 
 
   .blink{
-
 	background-color:yellow;
-  float: right;
   margin-top: 0.5rem;
-  height: 3rem;
+  /* float: right; */
 	padding:0.3rem;
 	border-radius:8px;
 	font-weight:bold;
@@ -2553,12 +2551,33 @@ background: #707070;
   height: 4.5rem;
 	animation: blinker 1s linear infinite;
 
+
 }
 
 .blink a{
   color: #023C92;
   padding-top: 0.5rem;
 }
+
+.blink1{
+background-color:yellow;
+/* float: right; */
+margin-top: 0.5rem ;
+padding:0.3rem;
+border-radius:8px;
+font-weight:bold;
+width: 19rem;
+height: 3rem;
+animation: blinker 1s linear infinite;
+
+}
+
+.blink1 a{
+  color: #023C92;
+  padding-top: 0.5rem;
+}
+
+
 @keyframes blinker {
   50% {
     opacity: 0;
