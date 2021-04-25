@@ -1235,7 +1235,7 @@ a.move-top span {
   }
 
     .nav_w3pvt nav a {
-        margin: 0em 0.5em;
+        margin: 0em 0em;
     }
 
     .content-w3pvt-img {
@@ -2549,10 +2549,12 @@ background: #707070;
 	padding:0.3rem;
 	border-radius:8px;
 	font-weight:bold;
-  width: 14rem;
+  width: 19rem;
+  height: 4.5rem;
 	animation: blinker 1s linear infinite;
 
 }
+
 .blink a{
   color: #023C92;
   padding-top: 0.5rem;
@@ -2566,3 +2568,9 @@ background: #707070;
 #prog_struct p{
     color:black;
 }
+
+.navsizing{
+  height: 9rem;
+}
+
+/* buttons */
