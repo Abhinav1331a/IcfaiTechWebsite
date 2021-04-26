@@ -1628,6 +1628,7 @@ a.move-top span {
       width:100%;
   }
   #showcase{
+    position: relative;
     width: 80%;
     height:60%;
     margin-left: auto;
@@ -2493,6 +2494,24 @@ a.move-top span {
     border-radius: 8px;
 }
 
+.sidemenu1{
+  position: absolute;
+margin-left: 6.3%;
+width: auto;
+ color:white;
+  z-index:90;
+  height: 100%;
+}
+
+.sidemenu1 .side_content{
+    background-color: rgba(0, 0, 0, 0.678);
+    padding:2rem;
+    border-radius: 8px;
+}
+
+.sidemenu1 a{
+  color: white;
+}
 
 
 #internplace .nav-tabs .nav-link.active, #internplace .nav-tabs .nav-item.show .nav-link{
